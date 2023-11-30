@@ -1,0 +1,47 @@
+*{
+    transition: all 1.5s;
+}
+hr{
+    color: transparent;
+
+}
+body{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+  height: 30px;  
+}
+#track img{
+    width: 40%;
+    height: 20px;
+}
+.rotated {
+    transform: rotatex(180deg);
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .marginTop{
+    display: block;
+    transform: translateY(-16px);
+  }
+  .btn-info{
+    background-color: #B96D40;
+    border: none;
+  }
+.accordion-item{
+    background-color: #ca054d;
+}
+.dashboard{
+    background-color: #CA054D;
+}
+/* .allAcoBody{
+  overflow: hidden;
+  height: 0px;
+
+} */
+
+
